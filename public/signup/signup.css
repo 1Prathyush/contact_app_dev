@@ -1,0 +1,54 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(197, 197, 235);
+}
+.formcontainer{
+    margin-top: 10%;
+    border: 1px solid rgb(197, 197, 245);
+    width: 30%;
+    height: 100%;
+    padding:15px;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 300;
+    box-shadow: 0px 2px 17px 5px rgba(13,13,13,0.37);
+    -webkit-box-shadow: 0px 2px 17px 5px rgba(13,13,13,0.37);
+    -moz-box-shadow: 0px 2px 17px 5px rgba(13,13,13,0.37);
+
+}
+input{
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 80%;
+    
+}
+button{
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 80%;
+    color: #fff;
+    background-color: rgb(30, 82, 179);
+}
+button:hover{
+    background-color:rgb(83, 135, 231) ;
+}
+.heading{
+    font-size: xx-large;
+    font-weight:bolder;
+    color: rgb(30, 82, 179);
+}
+label{
+    position: relative;
+    float: left;
+    padding-left: 11%;
+    margin-top: 7px;
+    margin-bottom:7px
+}
+.message{
+    font-size :15px;
+}

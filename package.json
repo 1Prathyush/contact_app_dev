@@ -1,0 +1,32 @@
+{
+  "name": "contact_app_dev",
+  "version": "1.0.0",
+  "description": "contact app with sign in &amp; sign up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Prathyush/contact_app_dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Prathyush/contact_app_dev/issues"
+  },
+  "homepage": "https://github.com/1Prathyush/contact_app_dev#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
